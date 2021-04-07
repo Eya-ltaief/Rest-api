@@ -40,7 +40,7 @@ const ContactCard = ({ contact }) => {
         />
         <Col>
           <Image
-            src="https://e7.pngegg.com/pngimages/85/114/png-clipart-avatar-user-profile-male-logo-profile-icon-hand-monochrome.png"
+            src="avatar.jpg"
             roundedCircle
             style={{
               height: "150px",

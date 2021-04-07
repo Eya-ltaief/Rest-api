@@ -26,7 +26,7 @@ const ContactList = () => {
 
         loadContacts ? <h1>wait a bit please !</h1>
             :
-            <div className="contacts-content">
+            <div className="contacts-content" style={{display:"flex", flexWrap:"wrap"}}>
                 <div className="contacts-list">
                     {contacts.map(contact =>
                         <ContactCard contact={contact} key={contact._id} />
